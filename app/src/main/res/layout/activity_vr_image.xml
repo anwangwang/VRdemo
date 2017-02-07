@@ -4,11 +4,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="AndroidVR开发360度全景图片" />
-
     <com.google.vr.sdk.widgets.pano.VrPanoramaView
         android:id="@+id/vrpv_view"
         android:layout_width="wrap_content"
